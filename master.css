@@ -1,0 +1,110 @@
+body{
+  box-sizing: border-box;
+  margin: 0px;
+  overflow-x: hidden;
+}
+.img{
+  float: left;
+}
+.header-container{
+  font-family: gigi;
+  padding: 2%;
+  margin: -0.7%;
+  background: radial-gradient(circle,grey,wheat,transparent);
+  position: fixed;
+  margin-top: -100px;
+  z-index: 2;
+  margin-left: 15px; 
+}
+
+nav{
+  word-spacing: 250px;
+  font-size: 250%;
+}
+
+a{
+  color: blue;
+  text-decoration: none ;
+}
+
+a:visited{
+  color: red;
+}
+
+a:hover{
+  color: hotpink  ;
+}
+
+
+
+#slider{
+        overflow: hidden;
+        margin-top: 80px;
+     }
+     #slider figure{
+
+       opacity: 0.6;
+         position:relative;
+         width: 500%;
+         margin: 0;
+         left:0;
+         animation: 20s slider infinite;
+     }
+     #slider figure img{
+         width: 20%;
+         float: left;
+     }
+     @keyframes slider{
+         0%{left: 0;}
+         20%{left: 0;}
+         25%{left: -100%;}
+         45%{left: -100%;}
+         50%{left: -200%;}
+         70%{left: -200%;}
+         75%{left: -300%;}
+         95%{left: -300%;}
+         100%{left: -400%;}
+     }
+     .slider-text{
+       font-family: gloucester MT;
+       font-size: 200%;
+       position: absolute;
+       left: 700px;
+       bottom: 200px;
+       color: green;
+
+     }
+     #about-head{
+        font-size: 50px;
+        margin-top: 70px;
+        margin-left: 80px;
+         font-family: harlow solid;
+     }
+     .about-content{
+       font-family: monotype cursiva;
+       font-size: 25px;
+       margin-left: 50px;
+       margin-top: 180px;
+     }
+     #Alex{
+       /* margin-top: -5px */
+        margin-left: 400px;
+        font-size: 30px;
+        font-family: forte;
+     }
+     .second{
+       padding-top: -50px;
+        margin-left: 0px;
+        font-size: 25px;
+     }
+     #About{
+       width: 60%;
+       background: linear-gradient(wheat,transparent,gray);
+       border-radius: 50px;
+     }
+     #photo{
+       position: absolute;
+       top: 695px;
+       left: 10px;
+       z-index: 1;
+     }
